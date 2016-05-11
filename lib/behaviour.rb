@@ -15,6 +15,9 @@ module Behaviour
     [ /\b(hi|hello|howdy)\b/, :say_hi ],
     [ "time", :say_time ],
     [ /\bgif\b/, :serve_a_gif ],
+    [ /\b(question)\b/, :ask_a_question],
+    [ /\b(what|who|where)\b/, :say_correct],
+    [ /\b(give up)\b/, :give_up],
     [ -> msg { msg =~ /\b(weather|temperature)\b/ }, :say_current_temp ],
     [ -> _ { !Wolfram.appid.nil? }, :wolfram_alpha_search ],
     [ ->(text){ true }, :say_wat? ]
@@ -25,10 +28,51 @@ module Behaviour
     # Why shouldn't we do this?
     @@weather_token = '83658a490b36698e09e779d265859910'
     @@giphy_token = 'dc6zaTOxFJmzC'
-    Wolfram.appid = ENV['WOLFRAM_APPID']
+    Wolfram.appid = 'Y8UT34-HJAWGP6J7R'
+    @jeopardy_answer = 'the answer'
+    @current_question = nil
 
     def say_hi(data)
       message channel: data.channel, text: "Hi <@#{data.user}>! :wave:"
+    end
+
+    def ask_a_question(data)
+      uri = URI.parse("http://jservice.io/api/random")
+      if @current_question
+        question = @current_question['question']
+        topic = @current_question['category']['title']
+        message channel: data.channel, text: ("The current question is: \nCategory: #{topic} \nQuestion: #{question}")
+      else
+        begin
+          response = JSON.parse(uri.read)[0]
+        rescue
+          @current_question = nil
+          response = "The api didn't give me a question.  Totally not my fualt."
+        end
+        @current_question = response
+        question = response['question']
+        topic = response['category']['title']
+        answer = response['answer']
+        message channel: data.channel, text: ("Category: #{topic} \nQuestion: #{question}")
+        @answer = answer
+    end
+  end
+
+    def say_correct(data)
+      if data.text.downcase.include?(@answer.downcase) && @current_question
+        message channel: data.channel, text: "Great!.  <@#{data.user}> got the last question right!  The Answer was #{@answer}"
+        @current_question = nil
+      else
+        wolfram_alpha_search(data)
+      end
+
+    end
+
+    def give_up(data)
+      if @current_question
+        @current_question = nil
+      end
+      message channel: data.channel, text: "The answer to the last question was #{@answer}"
     end
 
     def say_wat?(data)

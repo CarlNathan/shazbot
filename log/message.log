@@ -1,0 +1,91 @@
+# Logfile created on 2016-05-10 15:08:13 -0400 by logger.rb/47272
+I, [2016-05-10T15:08:13.811827 #86416]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T15:08:14.094943 #86416]  INFO -- Status: 200
+I, [2016-05-10T15:20:07.218622 #86930]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T15:20:07.579117 #86930]  INFO -- Status: 200
+I, [2016-05-10T15:24:54.379544 #87223]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T15:24:54.736725 #87223]  INFO -- Status: 200
+I, [2016-05-10T15:25:06.747433 #87223]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-10T15:25:07.941380 #87223]  INFO -- Status: 200
+I, [2016-05-10T15:34:50.599815 #87223]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-10T15:34:51.349315 #87223]  INFO -- Status: 200
+I, [2016-05-10T15:45:21.284882 #89073]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T15:45:21.902318 #89073]  INFO -- Status: 200
+I, [2016-05-10T15:54:27.728215 #89666]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T15:54:28.074803 #89666]  INFO -- Status: 200
+I, [2016-05-10T16:00:24.587139 #89959]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T16:00:24.922946 #89959]  INFO -- Status: 200
+I, [2016-05-10T16:23:23.483529 #91113]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T16:23:24.222794 #91113]  INFO -- Status: 200
+I, [2016-05-10T16:32:30.532172 #91531]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T16:32:31.391703 #91531]  INFO -- Status: 200
+I, [2016-05-10T17:04:19.925061 #93312]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T17:04:20.282971 #93312]  INFO -- Status: 200
+I, [2016-05-10T17:06:22.489400 #93603]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T17:06:23.287872 #93603]  INFO -- Status: 200
+I, [2016-05-10T17:09:22.489387 #93894]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T17:09:22.862335 #93894]  INFO -- Status: 200
+I, [2016-05-10T17:10:49.559911 #94184]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T17:10:50.241870 #94184]  INFO -- Status: 200
+I, [2016-05-10T17:13:00.075523 #94475]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T17:13:00.711664 #94475]  INFO -- Status: 200
+I, [2016-05-10T17:16:41.357409 #94768]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T17:16:42.048054 #94768]  INFO -- Status: 200
+I, [2016-05-10T17:21:58.148617 #95061]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T17:21:58.867675 #95061]  INFO -- Status: 200
+I, [2016-05-10T17:23:02.613008 #95351]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-10T17:23:03.240625 #95351]  INFO -- Status: 200
+I, [2016-05-10T17:23:39.607410 #95351]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-10T17:23:40.414537 #95351]  INFO -- Status: 200
+I, [2016-05-11T13:05:05.096026 #96088]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-11T13:05:05.447747 #96088]  INFO -- Status: 200
+I, [2016-05-11T13:06:03.908087 #96088]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:06:05.066197 #96088]  INFO -- Status: 200
+I, [2016-05-11T13:06:28.062203 #96088]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:06:29.891812 #96088]  INFO -- Status: 200
+I, [2016-05-11T13:08:59.925869 #96088]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:09:00.760906 #96088]  INFO -- Status: 200
+I, [2016-05-11T13:11:34.240893 #96383]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-11T13:11:34.977399 #96383]  INFO -- Status: 200
+I, [2016-05-11T13:12:43.269707 #96383]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:12:44.061216 #96383]  INFO -- Status: 200
+I, [2016-05-11T13:13:27.968425 #96383]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:13:28.863272 #96383]  INFO -- Status: 200
+I, [2016-05-11T13:18:24.518584 #96682]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-11T13:18:25.301952 #96682]  INFO -- Status: 200
+I, [2016-05-11T13:19:18.578671 #96682]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:19:19.336348 #96682]  INFO -- Status: 200
+I, [2016-05-11T13:20:21.993102 #96682]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:20:22.915759 #96682]  INFO -- Status: 200
+I, [2016-05-11T13:20:33.611751 #96682]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:20:35.099572 #96682]  INFO -- Status: 200
+I, [2016-05-11T13:21:12.053452 #96682]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:21:13.127883 #96682]  INFO -- Status: 200
+I, [2016-05-11T13:21:38.439940 #96682]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:21:38.906296 #96682]  INFO -- Status: 200
+I, [2016-05-11T13:21:48.881180 #96682]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:21:50.108792 #96682]  INFO -- Status: 200
+I, [2016-05-11T13:40:22.786560 #97274]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-11T13:40:23.094642 #97274]  INFO -- Status: 200
+I, [2016-05-11T13:42:06.977971 #97274]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:42:07.943553 #97274]  INFO -- Status: 200
+I, [2016-05-11T13:43:52.899770 #97274]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:43:54.341275 #97274]  INFO -- Status: 200
+I, [2016-05-11T13:44:47.225045 #97274]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:44:48.676950 #97274]  INFO -- Status: 200
+I, [2016-05-11T13:45:31.058977 #97274]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T13:45:32.983521 #97274]  INFO -- Status: 200
+I, [2016-05-11T13:50:54.883777 #97574]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-11T13:50:55.567200 #97574]  INFO -- Status: 200
+I, [2016-05-11T13:53:24.764676 #97864]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-11T13:53:25.358345 #97864]  INFO -- Status: 200
+I, [2016-05-11T14:00:55.780926 #98162]  INFO -- : post https://slack.com/api/rtm.start
+I, [2016-05-11T14:00:56.062769 #98162]  INFO -- Status: 200
+I, [2016-05-11T14:01:39.977669 #98162]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T14:01:40.786180 #98162]  INFO -- Status: 200
+I, [2016-05-11T14:04:06.956825 #98162]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T14:04:07.684092 #98162]  INFO -- Status: 200
+I, [2016-05-11T14:05:57.171609 #98162]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T14:05:57.976957 #98162]  INFO -- Status: 200
+I, [2016-05-11T14:06:11.020608 #98162]  INFO -- : post https://slack.com/api/chat.postMessage
+I, [2016-05-11T14:06:11.394758 #98162]  INFO -- Status: 200
